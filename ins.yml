@@ -2,7 +2,7 @@
 - hosts: myhosts
   become: yes
   tasks:
-  - name: install nmap
+  - name: install wget
     apt:
-      name: nmap
+      name: wget
       state: present
