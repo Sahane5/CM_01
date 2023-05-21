@@ -1,0 +1,8 @@
+---
+- host: myhosts
+  become: yes
+  tasks:
+  - name: install nmap
+    apt:
+      name: nmap
+      state: present
