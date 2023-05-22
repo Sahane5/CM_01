@@ -1,5 +1,5 @@
 ---
-- hosts: myhosts
+- hosts: [webservers]
   become: yes
   tasks:
   - name: install wget
